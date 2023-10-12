@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aditya Rizki Muhammad</title>
+    <link rel="stylesheet" href="stylePF.css">
+    <script src="https://kit.fontawesome.com/a1a7a69a9f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <!--Header-->
+        <div id="header">
+            
+            <div class="container">
+                <nav>
+                    <img src="Resource/logo.png" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portofolio">Portofolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-solid fa-x fa-lg" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars fa-xl" onclick="openmenu()"></i>
+                </nav>
+                <div class="text-header">
+                    <p>Cinematic & Photography</p>
+                    <h1><span>Aditya</span> Rizki<br>Muhammad<br></h1>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <main>
+        <!-- -----------About----------->
+            <div id="about">
+                <div class="container">
+                    <div class="row">
+                        <div class="about-col-1">
+                            <img src="Resource/john-wick-keanu-reeves-2014-keanu-wallpaper-preview.jpg" alt="Bang Kodit">
+                        </div>
+                        <div class="about-col-2">
+                            <h1 class="sub-title">About Me</h1>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            </p>
+        
+                            <div class="tab-titles">
+                                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                                <p class="tab-links" onclick="opentab('education')">Education</p>
+                            </div>
+        
+                            <div class="tab-contents active-tab" id="skills">
+                                <ul>
+                                    <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                                    <li><span>Videography</span><br>Shooting video</li>
+                                    <li><span>Content Creator</span><br>Creating infamous content</li>
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="experience">
+                                <ul>
+                                    <li><span>Dicoding Certifications</span><br>Expert Web Development</li>
+                                    <li><span>Videography Goat</span><br>100B follower on social media</li>
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="education">
+                                <ul>
+                                    <li><span>2022 - Present</span><br>ITS - Informatics Engineering</li>
+                                    <li><span>2019 - 2022</span><br>SMA N 1 Boyolali</li>
+                                </ul>
+                            </div>
+        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <!-- --------------services-------------------- -->
+            <div id="services">
+                <div class="container">
+                    <h1 class="sub-title">My services</h1>
+                    <div class="services-list">
+                        <div>
+                            <i class="fa-brands fa-uikit"></i>
+                            <h2>UI/UX</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                            </p>
+                            <a href="#">Learn More</a>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-video"></i>
+                            <h2>Videography</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                            </p>
+                            <a href="#">Learn More</a>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-photo-film"></i>
+                            <h2>Content Creator</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                            </p>
+                            <a href="#">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+        
+            <!-- --------------portofolio--------- -->
+            <div id="portofolio">
+                <div class="container">
+                    <h1 class="sub-title">My work</h1>
+                    <div class="work-list">
+                        <div class="work">
+                            <img src="Resource/man-guitar-pinterest.jpg" alt="man-guitar">
+                            <div class="layer">
+                                <h3>Jimmy Hendrix</h3>
+                                <p>1993 on Soekarno Hatta Stadium</p>
+                                <a href="#"><i class="fa-solid fa-link"></i></a>
+                            </div>
+                        </div>
+                        <div class="work">
+                            <img src="Resource/man-shout-pinterest.jpg" alt="man-shout">
+                            <div class="layer">
+                                <h3>Jimmy Hendrix</h3>
+                                <p>1993 on Soekarno Hatta Stadium</p>
+                                <a href="#"><i class="fa-solid fa-link"></i></a>
+                            </div>
+                        </div>
+                        <div class="work">
+                            <img src="Resource/man-sing-pinterest.jpg" alt="man-sing">
+                            <div class="layer">
+                                <h3>Jimmy Hendrix</h3>
+                                <p>1993 on Soekarno Hatta Stadium</p>
+                                <a href="#"><i class="fa-solid fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" class="btn">See More</a>
+                </div>
+            </div>
+    </main>
+
+    <!-- ------------contact---------- -->
+    <footer>
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-regular fa-paper-plane"></i>adityarizki25@gmail.com</p>
+                        <p><i class="fa-solid fa-phone"></i>0812345678910</p>
+                        <a href="#" download class="btn btn2">Download CV</a>
+                    </div>
+                    <aside>
+                        <div class="social-icons">
+                            <a href="#"><i class="fa-brands fa-github"></i></a>
+                            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                    </aside>
+                    <div class="contact-right">
+                        <form>
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Made by Aditya Rizki Muhammad. @aadityaa.rizki_</p>
+            </div>
+        </div>
+    </footer>
+
+    
+
+    <!--Main-->
+    <!--Aside-->
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links")
+    var tabcontents = document.getElementsByClassName("tab-contents")
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");    
+    }
+</script>
+
+<script>
+    var side_menu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        side_menu.style.right = "0";   
+    }
+
+    function closemenu(){
+        side_menu.style.right = "-200px";   
+    }
+
+</script>
+
+</body>
+</html>
